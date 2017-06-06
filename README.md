@@ -4,10 +4,10 @@ Docker image for [socket redis](https://github.com/cargomedia/socket-redis) serv
 
 Build:
 ```sh
-docker build -t cargomedia/socket-redis:v1 .
+docker build -t cargomedia/socket-redis:latest .
 ```
 
 Run:
 ```sh
-docker run -it --rm --link redis:redis cargomedia/socket-redis:v1
+docker run -it --rm --link redis:redis cargomedia/socket-redis:latest
 ```

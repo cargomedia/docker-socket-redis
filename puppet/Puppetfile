@@ -1,0 +1,3 @@
+mod 'cargomedia/socket_redis',
+    :git => 'git@github.com:cargomedia/puppet-packages.git',
+    :path => 'modules/socket_redis'
